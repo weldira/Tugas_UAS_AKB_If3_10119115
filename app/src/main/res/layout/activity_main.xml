@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+nim : 10119115
+nama : Weldira Tarigan
+kelas : if-3
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3C7FF1">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/send_reset_email_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/reset_password"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:theme="@style/buttonstyle"
+            style="?android:textAppearanceSmall"/>
+
+            <Button
+                android:id="@+id/sign_out_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/sign_out"
+                android:textStyle="bold"
+                android:theme="@style/buttonstyle"
+                android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

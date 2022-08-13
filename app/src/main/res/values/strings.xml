@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tugas_UAS_AKB_If3_10119115</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="info_akun">Sudah punya akun?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="info_akun2">Belum punya akun?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="sign_out">Sign Out</string>
+</resources>
